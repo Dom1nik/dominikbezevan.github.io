@@ -1,0 +1,109 @@
+h3, h4 {
+  font-family: "NexaLight";
+}
+
+span {
+  font-family: "NexaBold";
+}
+
+span:hover {
+  color: #814198;
+}
+
+.img-fluid {
+  max-width: 15%;
+}
+
+.img-profile-pic {
+  border-radius: 50%;
+  max-width: 20%;
+  border: 1.5px solid #814198;
+}
+
+.icons-row i {
+  font-size: 35px;
+  color: black;
+}
+
+a:hover i {
+  color: #814198;
+}
+
+@media (min-width: 992px) {
+  .img-fluid {
+    max-width: 7%;
+  }
+
+  .img-profile-pic {
+    max-width: 15%;
+  }
+
+  p {
+    font-size: 12px;
+    margin-bottom: 50px;
+  }
+
+  .icons-row i {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .img-fluid {
+    max-width: 5%;
+  }
+
+  .img-profile-pic {
+    max-width: 27%;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .icons-row i {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .img-fluid {
+    max-width: 10%;
+  }
+
+  .img-profile-pic {
+    max-width: 40%;
+  }
+}
+
+@media (max-width: 576px) {
+  .img-fluid {
+    max-width: 10%;
+  }
+
+  p {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .img-profile-pic {
+    max-width: 50%;
+  }
+}
+
+.icons-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+@font-face {
+  font-family: "NexaLight";
+  src: url("./NexaDemo-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NexaBold";
+  src: url("./NexaDemo-Bold.ttf") format("truetype");
+}
